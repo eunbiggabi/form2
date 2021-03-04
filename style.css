@@ -1,0 +1,78 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 40px 0;
+  }
+  
+  form {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  label,
+  strong {
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    margin: 20px 0;
+  }
+  
+  input {
+    text-indent: 10px;
+  }
+  
+  .radio-box label {
+    display: inline;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .radio input[type="radio"] + label {
+    display: block;
+    margin: 5px;
+  }
+  
+  .radio input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    vertical-align: -1px;
+    margin-right: 10px;
+  }
+  
+  .radio-box input[type="radio"]:checked {
+    background-color: #aaaaaa;
+  }
+  
+  .name-box input[type="text"],
+  input[type="date"],
+  input[type="email"],
+  button {
+    width: 600px;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+  button {
+    margin-top: 20px;
+    border: 2px solid #da1e1e;
+    color: #da1e1e;
+    background-color: white;
+  }
+  
+  button:hover {
+    background-color: #da1e1e;
+    color: white;
+    cursor: pointer;
+  }
+  
